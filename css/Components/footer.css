@@ -1,0 +1,12 @@
+h1, h2, h3, h4, h5, h6, p{
+    color: #26ff00;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.footer__block-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

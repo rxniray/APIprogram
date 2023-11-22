@@ -1,6 +1,6 @@
-
 h1, h2, h3, h4, h5, h6, p{
     color: #26ff00;
+    font-family: 'IBM Plex Mono', monospace;
 }
 .geo__block {
     width: 100%;
@@ -34,6 +34,12 @@ h1, h2, h3, h4, h5, h6, p{
 
 .geo__header h1{
     font-size: 1.5rem;
+    padding: 7px;
+}
+
+.categories-data h1{
+    font-size: 1.3rem;
+    padding: 7px;
 }
 
 .grean-line{
@@ -42,23 +48,19 @@ h1, h2, h3, h4, h5, h6, p{
     background-color: #26ff00;
 }
 
-ul{
+.geo-lists {
+    display: flex;
     padding: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+ul:nth-child(1){
+    width: 300px;
+}
 
 .load__block{
     display: flex;
@@ -71,4 +73,5 @@ ul{
 
 .load__block h1{
     font-size: 1.5rem;
+    padding: 7px;
 }
